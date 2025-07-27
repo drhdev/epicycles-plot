@@ -1,0 +1,16 @@
+{
+  "N_TERMS": 6,
+  "DURATION": 6.283185307179586,
+  "POINTS": 1000,
+  "SAVE_DIR": "output",
+  "RADIUS_RANGE": [20, 120],
+  "FREQ_RANGE": [1, 10],
+  "PHASE_RANGE": [0, 6.283185307179586],
+  "IMG_WIDTH": 1000,
+  "IMG_HEIGHT": 1000,
+  "BG_COLOR": "white",
+  "CURVE_COLOR": "black",
+  "ODD_COLOR": "red",
+  "EVEN_COLOR": "green",
+  "RANDOM_SEED": null
+} 
