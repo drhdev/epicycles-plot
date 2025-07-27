@@ -143,13 +143,6 @@ See `default-input.json` in this repository for a ready-to-use example.
 - All exceptions are logged with details and the script exits with a clear message and exit code.
 - If an error occurs, the script exits with a clear message and log entry.
 
-## License
-MIT License
-
-## Acknowledgements
-- Uses [matplotlib](https://matplotlib.org/) and [numpy](https://numpy.org/)
-- Mathematical background: [Epicycles on Wikipedia](https://en.wikipedia.org/wiki/Epicycle)
-
 ## Example Output Files
 
 The script generates PNG and JSON output files in the `output/` directory. Each run creates a pair of files with the same basename (timestamped), e.g.:
@@ -167,27 +160,15 @@ python epicycles_plot.py -jsoninput output/epicycle_YYYYMMDD_HHMMSS.json
 
 ---
 
-### Output Example 1
+### Output Example
 - Image: `output/epicycle_20250727_144132.png`
 - JSON:  `output/epicycle_20250727_144132.json`
 
 ![Epicycle Output 1](output/epicycle_20250727_144132.png)
 
-<details>
-<summary>Show JSON (output/epicycle_20250727_144132.json)</summary>
+## License
+GNU Public License
 
-```json
-
-```
-</details>
-
----
-
-**Example:**
-
-- Image: `output/epicycle_20250727_142547.png`
-- JSON:  `output/epicycle_20250727_142547.json`
-
-![Example Epicycle Output](output/epicycle_20250727_142547.png)
-
-[View the example JSON file](output/epicycle_20250727_142547.json)
+## Acknowledgements
+- Uses [matplotlib](https://matplotlib.org/) and [numpy](https://numpy.org/)
+- Mathematical background: [Epicycles on Wikipedia](https://en.wikipedia.org/wiki/Epicycle)
