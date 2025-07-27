@@ -34,7 +34,7 @@ The script also computes the **winding number** for each pixel: the number of ti
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/epicycles-plot.git
+   git clone https://github.com/drhdev/epicycles-plot.git
    cd epicycles-plot
    ```
 2. **Create and activate a virtual environment:**
