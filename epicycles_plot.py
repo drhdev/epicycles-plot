@@ -5,7 +5,7 @@ Author: drhdev
 Date: 2025-07-27
 Version: 1.0.0
 Description: Generate and visualize epicycles with winding number coloring. Reads all parameters from a JSON file, logs all steps, and supports reproducibility.
-License: G
+License: GPL
 """
 
 import os
