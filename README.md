@@ -28,7 +28,7 @@ where:
 - $\phi_k$ = phase offset
 - $t$ = parameter (angle)
 
-The script also computes the **winding number** for each pixel: the number of times the curve winds around that point. Pixels with an odd winding number are colored with `ODD_COLOR`, pixels with an even winding number are colored with `EVEN_COLOR`.
+The script also computes the **winding number** for each pixel not on the epicycle: the number of times the curve winds around that point. Pixels with an odd winding number are colored with `ODD_COLOR`, pixels with an even winding number are colored with `EVEN_COLOR`.
 
 ## Installation
 
